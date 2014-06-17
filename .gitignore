@@ -58,5 +58,5 @@ docs/_build/
 # Windows thumbs database file
 Thumbs.db
 
-# PC File
-PC.txt
+# Records File
+records.txt
