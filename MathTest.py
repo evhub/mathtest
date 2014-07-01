@@ -50,9 +50,8 @@ class tester(mathbase):
 
         self.interface = None
         self.module = ""
-        self.errorlog = {}
-        self.ans = [matrix(0)]
         self.populator()
+        self.printdebug(": ON")
         self.records = getfile("Records.txt")
         self.header = ""
         self.alldata = {"":(0,0)}
