@@ -27,6 +27,7 @@ class tester(mathbase):
     def __init__(self, cancalc=True, debug=False):
         """Initializes The Math Tester."""
         self.debug = bool(debug)
+        self.startup()
         self.cancalc = bool(cancalc)
         self.root = Tkinter.Tk()
         rootbind(self.root, self.complete)
